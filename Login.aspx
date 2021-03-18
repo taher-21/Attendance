@@ -81,7 +81,7 @@
 
         <div class="container">
             <center>
-                <h3>Asp.net Login form </h3>
+                <h3>Login For Admin, Teacher and Student</h3>
             </center>
             <label for="uname"><b>Username</b></label>
             <asp:TextBox runat="server" ID="txt_Username" placeholder="Enter Username"></asp:TextBox>

@@ -65,6 +65,19 @@
                </td>  
                
         </tr>
+     <tr>
+            <td>
+             <b>Password: &nbsp;&nbsp;&nbsp;</b></td>
+            <td>
+               <asp:TextBox ID="TextBox6" runat="server" Width="197px" Height="41px" 
+                    TextMode="Password" placeholder="Student Password"></asp:TextBox>
+               <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
+                        ControlToValidate="TextBox3" ErrorMessage="Type Password" 
+                    ForeColor="Red" >*</asp:RequiredFieldValidator>
+                   
+               </td>  
+               
+        </tr>
         <tr>
             <td>
              <b>Contact_No: &nbsp;&nbsp;&nbsp;</b></td>
